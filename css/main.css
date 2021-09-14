@@ -1,0 +1,254 @@
+/*global classes*/
+body {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+/*start navbar*/
+.navbar {
+  background: url(../images/banner.png) no-repeat;
+  background-size: 100%;
+  position: relative; }
+  .navbar img {
+    cursor: pointer;
+    height: 58%; }
+  .navbar ul,
+  .navbar img {
+    padding-top: 1rem; }
+    .navbar ul li,
+    .navbar img li {
+      display: inline;
+      margin-left: 2rem;
+      color: #fff;
+      font-size: 17px;
+      cursor: pointer; }
+      .navbar ul li:hover,
+      .navbar img li:hover {
+        color: #1e6b4d;
+        padding-right: 1rem; }
+      .navbar ul li a,
+      .navbar img li a {
+        color: #fff; }
+  .navbar .btn-toggle {
+    background: none;
+    border: none;
+    outline: none; }
+  .navbar .title {
+    padding-top: 6rem; }
+    .navbar .title h2 {
+      font-weight: bolder;
+      font-size: 40px; }
+    .navbar .title p {
+      width: 395px;
+      font-weight: bold; }
+    .navbar .title button {
+      margin-top: 15px;
+      font-size: 22px; }
+      .navbar .title button:hover {
+        color: #000;
+        animation-name: a-1;
+        animation-duration: 2; }
+    .navbar .title .btn-success {
+      background: #2ba879; }
+  .navbar input {
+    width: 77%;
+    border-radius: 30px;
+    padding-left: 2rem;
+    outline: 0; }
+  .navbar input,
+  .navbar .search {
+    position: absolute;
+    bottom: 10rem;
+    height: 60px; }
+  .navbar .search {
+    width: 13%;
+    right: 106px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 2rem; }
+
+/*end navbar*/
+/*start choose us*/
+.choose-us .title h2 {
+  font-size: 40px; }
+  .choose-us .title h2 span {
+    color: #2ba879; }
+.choose-us .title h2,
+.choose-us .title p {
+  padding-bottom: 2rem; }
+.choose-us .row .one {
+  background: #2ba879;
+  border-radius: 30px; }
+  .choose-us .row .one .card-body i {
+    font-size: 80px; }
+  .choose-us .row .one .card-body h5 {
+    font-size: 30px;
+    padding: 1rem 0; }
+.choose-us .row .two,
+.choose-us .row .three {
+  border-radius: 30px; }
+  .choose-us .row .two:hover,
+  .choose-us .row .three:hover {
+    box-shadow: 8px 5px 10px grey; }
+  .choose-us .row .two .card-body i,
+  .choose-us .row .three .card-body i {
+    font-size: 80px;
+    color: #2ba879; }
+  .choose-us .row .two .card-body h5,
+  .choose-us .row .three .card-body h5 {
+    font-size: 25px;
+    padding: 1rem 0; }
+.choose-us .row a {
+  padding: 7px 30px;
+  margin-top: 1rem; }
+  .choose-us .row a:hover {
+    background: #2ba879;
+    box-shadow: 5px 5px 30px 4px gray; }
+
+/*end choose us*/
+/*start person*/
+.person {
+  background: #2ba879;
+  background-size: 100%;
+  margin-top: 5rem;
+  position: relative;
+  padding: 4rem 0; }
+  .person:before {
+    background: url(../images/about-top-bg.png) no-repeat top center;
+    top: 0; }
+  .person:after {
+    background: url(../images/about-bottom-bg.png) no-repeat bottom center;
+    bottom: 0; }
+  .person .image {
+    overflow: hidden;
+    margin-top: 2rem; }
+    .person .image img {
+      height: 350px; }
+  .person .title {
+    background: #fff;
+    height: 100%;
+    margin-top: 2rem;
+    position: relative;
+    left: 1rem; }
+    .person .title h2 {
+      color: #2ba879;
+      font-weight: bolder;
+      padding-top: 1rem;
+      letter-spacing: 6px; }
+    .person .title p {
+      padding-top: 1rem;
+      font-size: 20px; }
+      .person .title p:last-child {
+        padding: 0; }
+
+/*end person*/
+/*start service*/
+.service h3 {
+  font-size: 60px;
+  padding-bottom: 2rem; }
+  .service h3 span {
+    color: #2ba879; }
+.service span {
+  font-weight: bold; }
+.service .row {
+  padding-top: 5rem; }
+  .service .row .col-md-4 {
+    border-radius: 10px;
+    border: 1px solid #2ba879;
+    padding: 2rem 0; }
+    .service .row .col-md-4 img {
+      cursor: pointer;
+      padding-bottom: 1rem; }
+    .service .row .col-md-4 h6 {
+      font-size: 20px; }
+    .service .row .col-md-4 span {
+      font-weight: normal; }
+  .service .row .active {
+    background: #2ba879;
+    color: #fff; }
+  .service .row .btn-dark {
+    margin: 4rem auto;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 25px; }
+    .service .row .btn-dark:hover {
+      background: #2ba879;
+      box-shadow: 5px 5px 30px 4px gray; }
+  .service .row .caption h3 {
+    font-size: 40px; }
+  .service .row .caption p {
+    font-weight: bold; }
+
+/*end service*/
+/*start my form*/
+.my-form {
+  background: url(../images/contact-bg.png) no-repeat;
+  background-size: 100%;
+  height: 100%; }
+  .my-form form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 3px;
+    position: relative;
+    top: 3rem; }
+    .my-form form input,
+    .my-form form textarea {
+      width: 100%;
+      margin-top: 1rem;
+      background: #eee;
+      border: none;
+      height: 40px;
+      border-radius: 10px;
+      padding: 0 20px;
+      outline: 0; }
+    .my-form form textarea {
+      height: 100px; }
+    .my-form form .btn-success {
+      display: flex;
+      justify-content: center;
+      background: #ce4109;
+      margin-top: 10px;
+      margin-bottom: 1rem; }
+  .my-form img {
+    height: 336px;
+    width: 100%;
+    margin-top: 3rem; }
+
+/*end myform*/
+#scroll-top {
+  width: 50px;
+  height: 40px;
+  color: #2ba879;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  display: none; }
+
+/*end scroll top*/
+/*extend class*/
+.navbar ul li,
+.navbar img li {
+  text-transform: uppercase; }
+
+.navbar .title h2, .navbar .title p, .navbar .title button, .choose-us .title h2, .choose-us .row .one .card-body h5, .choose-us .row .two .card-body h5,
+.choose-us .row .three .card-body h5, .service h3, .service .row .col-md-4 h6, .service .row .btn-dark {
+  text-transform: capitalize; }
+
+.navbar ul li,
+.navbar img li, .navbar .title button, .choose-us .row .two,
+.choose-us .row .three, .choose-us .row a, .service .row .col-md-4, .service .row .btn-dark {
+  transition: all 0.3s ease-in-out; }
+
+.person:before, .person:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-size: 100%;
+  width: 100%;
+  height: 110px; }
+
+/*# sourceMappingURL=main.css.map */

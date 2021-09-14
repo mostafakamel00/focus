@@ -1,0 +1,28 @@
+/*start media query*/
+@media (max-width: 670px) {
+  .navbar .search {
+    right: 80px;
+  }
+}
+/*phone and tab screen*/
+@media (max-width: 767px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar .search {
+    right: 55px;
+  }
+  .choose-us .row .btn-dark {
+    margin-bottom: 10px;
+  }
+}
+/*media screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/*large screen*/
+@media (min-width: 992) and (max-width: 1199px) {
+}
+/*exrta large screen*/
+@media (min-width: 1200px) {
+}
+/*end media query*/
